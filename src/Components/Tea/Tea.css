@@ -1,0 +1,10 @@
+.tea img{
+  width: 386px;
+  height: 386px;
+}
+@media screen and (max-width: 480px){
+  .tea img{
+    width: 200px;
+    height: 200px;
+  }
+}

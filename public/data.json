@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Regular Tea",
+    "id": "2201",
+    "price": "$5.00",
+    "img": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "ratings": "5.0 star",
+    "manufacture": "2022-01-30"
+  },
+  {
+    "name": "Milk Tea",
+    "id": "2202",
+    "price": "$4.90",
+    "img": "https://images.pexels.com/photos/1866761/pexels-photo-1866761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "ratings": "4.5 star",
+    "manufacture": "2022-01-30"
+  },
+  {
+    "name": "Daisy Tea",
+    "id": "2203",
+    "price": "$3.00",
+    "img": "https://images.pexels.com/photos/8115976/pexels-photo-8115976.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "ratings": "5.0star",
+    "manufacture": "2022-01-30"
+  },
+  {
+    "name": "Masala Tea",
+    "id": "2204",
+    "price": "$4.50",
+    "img": "https://images.pexels.com/photos/2461314/pexels-photo-2461314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "ratings": "4.5 star",
+    "manufacture": "2022-01-30"
+  },
+  {
+    "name": "Apple Tea",
+    "id": "2205",
+    "price": "$3.78",
+    "img": "https://images.pexels.com/photos/3338676/pexels-photo-3338676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "ratings": "4.5 star",
+    "manufacture": "2022-01-30"
+  },
+  {
+    "name": "Honey Tea",
+    "id": "2206",
+    "price": "$4.20",
+    "img": "https://images.pexels.com/photos/1872904/pexels-photo-1872904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "ratings": "4.5 star",
+    "manufacture": "2022-01-30"
+  },
+  {
+    "name": "Orange Tea",
+    "id": "2207",
+    "price": "$3.90",
+    "img": "https://images.pexels.com/photos/3323682/pexels-photo-3323682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "ratings": "4.5 star",
+    "manufacture": "2022-01-29"
+  },
+  {
+    "name": "Karanphool Tea",
+    "id": "2208",
+    "price": "$2.98",
+    "img": "https://images.pexels.com/photos/259955/pexels-photo-259955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "ratings": "4.5 star",
+    "manufacture": "2022-01-30"
+  },
+  {
+    "name": "Nut Tea",
+    "id": "2209",
+    "price": "$3.89",
+    "img": "https://images.pexels.com/photos/9741327/pexels-photo-9741327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "ratings": "4.5 star",
+    "manufacture": "2022-01-28"
+  },
+  {
+    "name": "Spearmint Tea",
+    "id": "2210",
+    "price": "$4.00",
+    "img": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "ratings": "4.5 star",
+    "manufacture": "2022-01-30"
+  },
+  {
+    "name": "Sunflowers Tea",
+    "id": "2211",
+    "price": "$3.90",
+    "img": "https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "ratings": "4.5 star",
+    "manufacture": "2022-01-29"
+  },
+  {
+    "name": "Lemon Tea",
+    "id": "2212",
+    "price": "$3.70",
+    "img": "https://images.pexels.com/photos/792613/pexels-photo-792613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "ratings": "4.5 star",
+    "manufacture": "2022-01-30"
+  }
+]

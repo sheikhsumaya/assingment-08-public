@@ -1,0 +1,22 @@
+.tea-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.product-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+@media screen and (max-width: 480px){
+  .tea-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+
+  .product-container{
+    display: grid;
+  grid-template-columns: repeat(1,1fr);
+  }
+
+}
