@@ -10,6 +10,12 @@
   margin:20px;
  
 }
+.cart-container{
+  border: 5px solid rgba(54, 102, 114, 0.719);
+  margin: 20px 5px;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
 
 @media screen and (max-width: 480px){
   .tea-container{
