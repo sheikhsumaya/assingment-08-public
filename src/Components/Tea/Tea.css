@@ -13,6 +13,14 @@
   width: 100%;
   background-color: rgba(59, 85, 94, 0.685);
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-text{
+  margin-right: 10px;
+  color: rgb(7, 8, 8);
+  font-weight: 700;
 }
 .btn-cart:hover{
   background-color: cadetblue;

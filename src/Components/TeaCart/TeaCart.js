@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { isValidDateValue } from '@testing-library/user-event/dist/utils';
+import React, { useEffect, useState } from 'react'
 import Tea from '../Tea/Tea';
 import './TeaCart.css';
 
@@ -7,6 +8,7 @@ const TeaCart = () => {
 
 
   const [data, setTea] =useState([]);
+  const [cart, setCart] = useState([]);
   useEffect( ()=>{
     fetch('data.json')
     .then(res=> res.json())
@@ -15,6 +17,9 @@ const TeaCart = () => {
 
   const handleClick = (data) =>{
     console.log(data);
+    // cart.push(data);
+    const newCart = [...cart, data];
+    setCart(newCart);
   }
   return (
     <div className='tea-container'>
@@ -29,7 +34,8 @@ const TeaCart = () => {
         }
       </div>
       <div className="cart-container">
-        <h1>Orders</h1>
+        <h1>Orders </h1> 
+        
       </div>
     </div>
   );
