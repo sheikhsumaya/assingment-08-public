@@ -1,10 +1,26 @@
 .tea img{
-  width: 386px;
+  width: 330px;
   height: 386px;
+  padding: 10px;
+  border-radius: 5%;
+}
+.tea{
+  border: 5px solid rgba(54, 102, 114, 0.719);
+  border-radius: 10px;
+  padding: 15px;
+}
+.btn-cart{
+  width: 100%;
+  background-color: rgba(59, 85, 94, 0.685);
+  border-radius: 10px;
+}
+.btn-cart:hover{
+  background-color: cadetblue;
 }
 @media screen and (max-width: 480px){
   .tea img{
     width: 200px;
     height: 200px;
+    padding: 5px;
   }
 }

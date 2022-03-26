@@ -20,7 +20,7 @@ a{
   color: white;
 }
 a:hover{
-  color: red;
+  color: rgba(126, 76, 43, 0.76);
 }
 
 @media screen and (max-width: 480px) {

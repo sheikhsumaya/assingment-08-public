@@ -13,7 +13,9 @@ const TeaCart = () => {
     .then(data => setTea (data))
   },[])
 
-
+  const handleClick = (data) =>{
+    console.log(data);
+  }
   return (
     <div className='tea-container'>
       <div className="product-container">
@@ -21,9 +23,9 @@ const TeaCart = () => {
           data.map(data=> 
           <Tea 
           key={data.id}
-          data={data}>
-
-          </Tea> )
+          data={data}
+          handleClick={handleClick}
+          ></Tea> )
         }
       </div>
       <div className="cart-container">

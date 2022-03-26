@@ -12,9 +12,10 @@ const Tea = (props) => {
         <p>Ratings:{ratings}</p>
         <p>Production Date:{manufacture}</p>
         <p><small>Id:{id}</small></p>
-
-
-      </div>
+    </div>
+    <button onClick={() => props.handleClick(props.data)} className='btn-cart'>
+      <p>Add To Cart</p>
+    </button>
     </div>
   );
 };
