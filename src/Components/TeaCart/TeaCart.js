@@ -18,9 +18,11 @@ const TeaCart = () => {
   },[])
 
   const handleClick = (data) =>{
-    console.log(data);
     const newCart = [...cart, data];
     setCart(newCart);
+  }
+  const clearCart = () =>{
+    setCart([]);
   }
   return (
     <div className='tea-container'>
@@ -36,17 +38,18 @@ const TeaCart = () => {
       </div>
       <div className="cart-container">
         <h2>Orders Items</h2>
-        <p>
+        <h4>
           Selected Items: {cart.length}
-        </p>
+        </h4>
         {
-          data.map(data=> 
+          cart.map(product=> 
           <Order 
-          key={data.id}
-          data={data}
+          key={product.id}
+          product={product}
           handleClick={handleClick}
           ></Order> )
         }
+        <button className='rmv-btn' onClick={clearCart}>Remove All</button>
         
       </div>
     </div>
