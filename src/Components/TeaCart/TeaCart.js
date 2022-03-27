@@ -37,8 +37,8 @@ const TeaCart = () => {
         }
       </div>
       <div className="cart-container">
-        <h2>Orders Items</h2>
-        <h4>
+        <h2 className='text'>Orders Items</h2>
+        <h4 className='text'>
           Selected Items: {cart.length}
         </h4>
         {
