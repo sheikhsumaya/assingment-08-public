@@ -12,3 +12,14 @@
   border: 3px solid rgba(54, 102, 114, 0.719);
   
 }
+@media screen and (max-width: 480px){
+  .order{
+    border-radius:1px;
+    padding: 2px 1px;
+    border: 1px solid rgba(54, 102, 114, 0.719);
+    
+  }
+  .order img{
+    display: none;
+  } 
+}

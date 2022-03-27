@@ -2,7 +2,6 @@ import React from 'react';
 import './Orders.css'
 
 const Order = (props) => {
-  console.log(props.product.name)
   
   return (
     <div className='order'>
